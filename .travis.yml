@@ -1,6 +1,10 @@
 sudo: required
 dist: xenial
-
+group: edge
+virt: lxd
+arch:
+  - amd64
+  - arm64-graviton2
 os: linux
 
 language: c
