@@ -1,9 +1,7 @@
 sudo: required
-dist: focal
-group: edge
-virt: vm
+dist: xenail
 arch: 
-- arm64-graviton2
+- arm64
 - amd64
 
 os: linux
