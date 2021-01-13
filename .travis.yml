@@ -2,16 +2,14 @@ sudo: required
 dist: focal
 group: edge
 virt: vm
-arch:
-  - amd64
-  - arm64-graviton2
+arch: 
+- arm64-graviton2
+- amd64
 os: linux
 
 language: c
 
-compiler:
-  - gcc
-  - clang
+compiler: clang
 
 addons:
   apt:
